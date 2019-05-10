@@ -4,7 +4,6 @@
 # Search and Sample Return Project
 
 # Introduction
-- This is my turn-in code for the first project for the fulfillment of Udacity's Robotics Nanodegree.
 - This project is modeled after
 the [NASA Sample and Return Challenge](https://www.nasa.gov/directorates/spacetech/centennial_challenges/sample_return_robot/index.html).
 - Fulfillment of this project gives first hand experience on the three essential elements of robotics, which are perception, decision making and actuation. The project is carried out in a simulator environment built with the Unity game engine.
