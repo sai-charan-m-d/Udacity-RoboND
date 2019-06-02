@@ -36,6 +36,7 @@ Next, we segment point clouds into objects via euclidean clustering. Clustering 
 Finally, we label the object point clouds by predicting their labels from our SVM model.
 
 The # of objects correctly identified:
+
 World 1: 3/3
 
 World 2: 5/5
@@ -46,12 +47,16 @@ World 3: 7/8
 
 Running:
 
-1) Build
+1) Build usinf these commands
+
 rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
+
 catkin_make
 
-2) Execute
+2) Execute using these commands
 
 roslaunch sensor_stick training.launch
+
 rosrun sensor_stick capture_features.py
+
 rosrun sensor_stick train_svm.py
